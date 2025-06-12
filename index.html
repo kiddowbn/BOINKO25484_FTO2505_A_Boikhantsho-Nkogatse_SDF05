@@ -8,41 +8,56 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-
+          <!--section footer-->
             <footer class="bg-[#659f8f] text-black">
                 <div class="container px-6 py-12 mx-auto">
-                    <div class="grid grid-cols-1 gap-8 sm:grid-col-2 lg:grid-cols-4">
-                        <div class="sm:col-span-2">
-                           
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
+                    
+                    <!-- Grid Layout -->
+                      <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+                      
+                      <!--news leter updates-->
+                        <div class="sm:col-span-2 md:text-2xl">
+                        
+                            <h1 class="max-w-lg" >Subscribe to our newsletter for updates.</h1>
+                            <div class="flex flex-col sm:flex-row gap-4">
                                
-                               
-                                <input id="email" type="text placeholder="Email Address
-                                class="px-4 py-2.5 w-full sm:w-64 rounded focus:outline-none text-gray-800" ">
-                                <button class="w-full px-6 py-2.5 bg-[#FFAC1C] text-[#313131] font-medium roundedhover:bg-gray-100 transition">
+                               <!--subscribe button-->
+                                <input  type="email" 
+                                        placeholder="Email Address"                                                                    
+                                        class="px-4 py-2.5 w-full sm:w-64 rounded focus:outline-none text-gray-800">
+                                
+                                
+                                <button class="px-6 py-2.5 bg-[#CC5500] text-white font-medium rounded hover:bg-orange-100 transition">
                                     Subscribe
                                 </button>
 
 
                             </div>
                         </div>
+                       
+                       
+                       <!--Quick links-->
                         <div>
-                            <p class="text-lg font-semibold text-[#313131]mb-4">Quick Link</p>
                             
+                            <p class="text-lg font-semibold text-[#313131]mb-4 md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-12">Quick Link</p>
                             
+                             
                             <div class="flex flex-col space-y-2">
                                 <a href="#" class="hover:underline">Home</a>
                                 <a href="#" class="hover:underline">Who We Are</a>
                                 <a href="#" class="hover:underline">Our Philosophy</a>
                             </div>
                         </div>
+                        
+                        <!--Technologies-->
                         <div>
                             
-                            
-                            <p class=" text-lg font-semibold text-[#313131]mb-4">Technologies</p>
+                        
+                            <p class=" text-lg font-semibold text-[#313131]mb-4 md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-16">Technologies</p>
                             <div class="flex flex-col space-y-2">
-
+                                 
+                                 
+                                 
                                 <a href="#" class="hover:underline">HTML</a>
                                 <a href="#" class="hover:underline">CSS</a>
                                 <a href="#" class="hover:underline" > JavaScript</a>
@@ -50,8 +65,12 @@
                         </div>
                     </div>
                     
+
+                     <!--border line-->
                     <hr class="my-6 border-[#d86943]">
                     
+                    
+                     <!--code space image-->
                     <div class="flex">
                         <a href="#">
                             <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
