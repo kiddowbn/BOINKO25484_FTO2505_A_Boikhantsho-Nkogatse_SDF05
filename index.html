@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Footer Example</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -10,24 +10,24 @@
 <body>
           <!--section footer-->
             <footer class="bg-[#659f8f] text-black">
-                <div class="container px-6 py-12 mx-auto">
+                <div class="container px-6 py-8 sm:py-10 mx-auto ">
                     
                     <!-- Grid Layout -->
-                      <div class="grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-4">
+                      <div class="grid grid-cols-1 gap-6 sm:gap-8 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4">
                       
                       <!--news leter updates-->
-                        <div class="sm:col-span-2  md:text-2xl  ">
+                        <div class="sm:col-span-2   ">
                         
-                            <h1 class="max-w-lg text-lg" >Subscribe to our newsletter for updates.</h1>
-                            <div class="flex flex-col sm:flex-row gap-4">
+                            <h1 class="text-base md:text-lg mb-3" >Subscribe to our newsletter for updates.</h1>
+                            <div class="flex flex-col sm:flex-row gap-4 mt-2 ">
                                
                                <!--subscribe button-->
-                                <input  type="email" 
+                                <input  type="email Adress " 
                                         placeholder="Email Address"                                                                    
-                                        class="px-12 py-1.5 w-full sm:w-32 rounded focus:outline-none text-gray-200 text-xs">
+                                        class="px-4 py-2 w-full sm:w-48 rounded focus:outline-none text-gray-600 text-xs ">
                                 
                                 
-                                <button class="px-12 py-1.5 bg-[#CC5500] text-white text-xs font-medium rounded hover:bg-[#FF5F1F] transition">
+                                <button class="px-4 py-2 bg-[#CC5500] text-white text-xs font-medium rounded hover:bg-[#FF5F1F] transition">
                                     Subscribe
                                 </button>
 
@@ -35,14 +35,14 @@
                             </div>
                         </div>
                        
-                       
+                    
                        <!--Quick links-->
-                        <div>
+                        <div class="md:auto-rows-min ">
                             
-                            <p class="text-base font-semibold text-[#313131]">Quick Link</p>
+                            <p class="text-base font-semibold text-[#313131] mn-3">Quick Link</p>
                             
                              
-                            <div class="flex flex-col space-y-2">
+                            <div class="flex flex-col space-y-3">
                                 <a href="#" class="hover:underline text-xs">Home</a>
                                 <a href="#" class="hover:underline text-xs">Who We Are</a>
                                 <a href="#" class="hover:underline text-xs">Our Philosophy</a>
@@ -50,11 +50,11 @@
                         </div>
                         
                         <!--Technologies-->
-                        <div>
+                        <div class="md:auto-rows-min ">
                             
                         
-                            <p class=" text-base font-semibold text-[#313131]">Technologies</p>
-                            <div class="flex flex-col space-y-2">
+                            <p class=" text-base font-semibold text-[#313131] mb-3">Technologies</p>
+                            <div class="flex flex-col space-y-3">
                                  
                                  
                                  
@@ -67,11 +67,11 @@
                     
 
                      <!--border line-->
-                    <hr class="my-6 border-[#d86943]">
+                    <hr class="my-6 sm:my-8 border-[#d86943]">
                     
                     
                      <!--code space image-->
-                    <div class="flex">
+                    <div class="flex mt-4">
                         <a href="#">
                             <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
                         </a>
